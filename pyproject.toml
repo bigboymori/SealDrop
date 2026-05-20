@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sealdrop"
+version = "0.1.0"
+description = "CLI-first tool for creating and opening locally-encrypted .sdpkg packages for sensitive file exchange."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "bigboymori" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/bigboymori/SealDrop"
+Repository = "https://github.com/bigboymori/SealDrop"
+
+[tool.setuptools]
+py-modules = [
+  "__main__",
+  "async_worker",
+  "cli",
+  "constants",
+  "crypto",
+  "dialogs",
+  "dragdrop",
+  "errors",
+  "main_window",
+  "metadata_panel",
+  "package",
+  "package_view",
+  "signature",
+  "signature_dialog",
+  "toolbar",
+  "transfer",
+  "trust_log"
+]
+
+[project.scripts]
+sealdrop = "cli:main"
