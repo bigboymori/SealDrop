@@ -1,3 +1,9 @@
+- <p align="center">
+  <img src="https://raw.githubusercontent.com/bigboymori/SealDrop/main/assets/sealdrop-social.png" alt="SealDrop" width="720">
+</p>
+
+<h3 align="center">Simple • Secure • Auditable encrypted file exchange</h3>
+
 # SealDrop
 
 SealDrop is a local-first encrypted file transfer tool for direct, controlled exchange of sensitive files without relying on third-party file hosting.
@@ -204,10 +210,6 @@ If your build environment needs a package mirror for PySide6 install during GUI 
 - MVP plan: `sealdrop/docs/MVP_IMPLEMENTATION_PLAN.md`
 - Test plan: `sealdrop/docs/TEST_PLAN.md`
 
-- <p align="center">
-  <img src="https://raw.githubusercontent.com/bigboymori/SealDrop/main/assets/sealdrop-social.png" alt="SealDrop" width="720">
-</p>
 
-<h3 align="center">Simple • Secure • Auditable encrypted file exchange</h3>
 - Contribution guide: `sealdrop/CONTRIBUTING.md`
 - Security policy: `sealdrop/SECURITY.md`
